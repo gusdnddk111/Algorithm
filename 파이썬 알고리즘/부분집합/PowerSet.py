@@ -1,6 +1,3 @@
-
-# coding: utf-8
-
 import copy
 
 list=[0,0,0,0,0]
