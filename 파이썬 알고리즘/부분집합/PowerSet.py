@@ -1,26 +1,10 @@
 
 # coding: utf-8
 
-# In[12]:
-
-
 import copy
 
-
-# In[37]:
-
-
 list=[0,0,0,0,0]
-
-
-# In[38]:
-
-
 powerSetList=[set({})]
-
-
-# In[39]:
-
 
 for i in range(len(list)):
     count = len(powerSetList)
@@ -29,10 +13,5 @@ for i in range(len(list)):
         tempSet.add(list[i])
         powerSetList.append(tempSet)
 
-
-# In[40]:
-
-
 print(len(powerSetList))
 print(powerSetList)
-
